@@ -37,7 +37,7 @@
     state: "present"
     update_cache: True
     install_recommends: False
-    cache_valid_time: "{{ docker_apt_cache_time }}"
+    # cache_valid_time: "{{ docker_apt_cache_time }}"
 
 - name: Remove Upstart config file
   file:
